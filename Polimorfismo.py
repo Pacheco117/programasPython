@@ -16,7 +16,7 @@ class Gato(Animal):
         return f"{self.name} dice Meow!"
 
 
-dog = Perro("Fido")
+dog = Perro("Duque")
 cat = Gato("Fluffy")
 
 print(dog.hacerSonido())
