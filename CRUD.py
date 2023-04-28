@@ -60,7 +60,7 @@ def mostrar_alumnos():
     # Obtener todos los alumnos
     alumnos = leer_alumnosDB()
 
-    # Mostrar los alumnos en la tabla
+    # Mostrar los alumnos en la tabla mostrada
     for i, alumno in enumerate(alumnos):
         id = alumno[0]
         nombre = alumno[1]
